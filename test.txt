@@ -1,0 +1,82 @@
+What is java?
+Java is a high level programming language and it is platform independent language.
+--> Independent Language means We can run java code in all other operating systems like mac os ,linux...
+--> java uses JVM to run its code..
+--> it is not fully interpreted language..
+
+What are the data types in java ??
+primitive --> int , float , double , char etc..
+Derived --> String , Object , ArrayList etc..
+
+
+What are features of java ??
+1 Simple 
+2 Platform Independent
+3 OOPs
+4 Multithreaded..
+
+--> Time compiler enables high performance to java..
+
+--> IDE name -> Eclipse and NetBeans..
+
+Constructor --> (1) Initializes instance of a class (2) Its like a method but does not return anything
+(3) Constructor can be overloaded..
+
+Local variable --> It is defined inside a method and scope through out the method..
+Instance variable --> Defined inside a class and outside the method..
+
+--> A class is a blueprint or template which has methods and variables..
+
+--> An instance of a class in called object. Whenever JVM reads new keyword it will create instance of that class..
+
+
+What are OOPs concepts??
+Inheritance --> One class can extend into another class so that code cane be reuse and existing class is known as 
+Parent class while derived class is known as Child class..
+
+3 Types of Inheritance in java
+(A) Single Level (B) MultiLevel (C) Heirarchical
+Java Does not support multiple inheritance as well as hybrid cause of ambiguity..
+
+Polymorphism --> An object can take many forms or parent class reference can point to objects of different 
+child classes..
+Code can be reuse and memory saved..
+
+2 Types of polymorphism in java 
+(A) Compile time (B) Run time 
+--> Compile time polymorphism uses method overloading
+--> Run time polymorphism uses method overriding
+
+*** Method Overloading --> Method name should be same but different in paarmeters..(Same class)
+*** Method Overriding -->  Method name should be same as well parameters also should be same..(Different classes)
+
+Encapsulation --> It means We are putting our code into a protective bubble ensuring it stays safe and 
+secure while we need it we can access it from everywhere in our project..
+* Code protection from others
+* Code is Maintainable.
+
+Interface --> Interface is a template which has method declaration but not the method implementation..
+We can define our method inside interface by using default keyword before method name..
+* Completely data secure..
+
+Abstraction --> It is a OOPs concept it hides complex implementation details and shows only essential 
+feature to the user
+--> We can achieve abstraction by using Either interface(Complete Abstraction) OR  Abstract class(Partial Abstraction)..
+
+Difference between Abstract class and Interface
+Abstract class --> Can have Constructor , uses abstract keyword , can have constants..
+Interface --> Could not have Constructor , uses interface keyword , also can have constants..
+
+Modifiers --> Public -> Visible inside a package as well as outside a package..
+              Private -> Visible inside a class and outside the method..
+              Default -> Visible inside a class as well as another class which is in same package..
+              Protected -> It is simillar to default when we extend a class it is visible in another package class..
+
+Array and ArrayList --> Array size is fixed while ArrayList is dynamic.
+                        We have to specify index in case of array while no index is required in arraylist..
+
+Collections in java --> It is a Framework that is designed to store objects..
+Searching ,Sorting, Deletion ,Insertion,Manupulation...
+
+HashMap --> Methods are not synchronized and No thread safety..
+HashTable --> Methods are synchronized and thread safety is also provided..
