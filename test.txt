@@ -105,4 +105,11 @@ thread..
 
 **** Synchronization --> Its a process to controll multiple threads wgich are trying to access any shared resource 
 at a time..
-Ex. Booking Apps.. 
+Ex. Booking Apps..
+
+--> super keyword is used to access parent class Members...
+class Student extends Interview {
+    Student(String name ,int age){
+        super(name,age);
+    }
+} 
