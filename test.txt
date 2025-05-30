@@ -80,3 +80,29 @@ Searching ,Sorting, Deletion ,Insertion,Manupulation...
 
 HashMap --> Methods are not synchronized and No thread safety..
 HashTable --> Methods are synchronized and thread safety is also provided..
+
+HashSet --> Inserted elements are in random order , null allows , faster...
+TreeSet --> It follows sorted order , could not allow null objects , slower...
+
+Collection -> Ordered Collections --> Elements are keeping in which they were added..
+Sorted Collection --> Elements are arranged based on their sorted criteria either it is ascending or descending..
+
+--> ArrayList is faster because fast random access interface and ordered collection..
+--> LinkedLIst is slower than ArrayList , Good choice for insertion and deletion. Doublly linkedlist system..
+--> Vector are also implements random access interface , methods are synchronized and thread safety...
+
+--> Exception means error or run time error.To handle exception we use try and catch block.
+It gets during the Normal flow of execution..
+--> Finally block always execute..
+
+--> Thraed -->  Normal flow of execution of a programe is known as thread.Every java programe has atleast one thread which is main 
+thread..
+
+--> Final keyword --** If we use final with variable , we can not change value later.
+                       if we use final with methods , we can not override method.
+                       if we use final with class , we can not extend..
+
+
+**** Synchronization --> Its a process to controll multiple threads wgich are trying to access any shared resource 
+at a time..
+Ex. Booking Apps.. 
